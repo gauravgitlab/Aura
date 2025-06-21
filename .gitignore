@@ -1,0 +1,72 @@
+# Ignore Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Ignore Xcode files
+*.xcworkspace
+*.xcuserdata
+
+# Ignore build system files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Ignore Unreal-specific generated files
+*.log
+*.vs/
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.tmp
+*.VC.db
+*.VC.opendb
+
+# Ignore compiled source files
+*.dll
+*.exe
+*.lib
+*.app
+*.dylib
+*.so
+*.a
+*.pdb
+
+# Ignore config files for local preferences (optional, team dependent)
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+
+# Ignore Unreal AutomationTool temporary files
+AutomationTool/Logs/
+
+# Ignore crash and dump files
+*.dmp
+
+# Ignore build-generated content
+Saved/
+*.local
+
+# Ignore plugin intermediates (optional)
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore IDE-specific project files (optional, recommended)
+*.idea/
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
